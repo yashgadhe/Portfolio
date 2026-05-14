@@ -23,14 +23,14 @@ const Landing = ({ children }: PropsWithChildren) => {
           <div className="landing-info">
             <h3>A</h3>
             <h2 className="landing-info-h2">
-              <div className="landing-h2-1">Full-Stack</div>
+              <div className="landing-h2-1">FRONT_END</div>
             </h2>
             <h2>
               <div className="landing-h2-info">Developer</div>
             </h2>
           </div>
           <div className="mobile-photo">
-            <img src="/images/mypicnbg.png" alt="Latish Kumeriya" />
+            <img src="/images/mypicnbg.png" alt="Yash Gadhe" />
           </div>
         </div>
         {children}

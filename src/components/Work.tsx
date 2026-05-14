@@ -78,6 +78,18 @@ const Work = () => {
                 </div>
                 <h4>Tools and features</h4>
                 <p>{project.technologies}</p>
+                <div className="work-links" style={{ display: "flex", gap: "15px", marginTop: "20px" }}>
+                  {project.github && (
+                    <a href={project.github} target="_blank" rel="noreferrer" style={{ padding: "8px 16px", border: "1px solid rgba(255,255,255,0.3)", borderRadius: "20px", textDecoration: "none", color: "white", fontSize: "14px" }}>
+                      GitHub
+                    </a>
+                  )}
+                  {project.demo && (
+                    <a href={project.demo} target="_blank" rel="noreferrer" style={{ padding: "8px 16px", background: "white", color: "black", borderRadius: "20px", textDecoration: "none", fontSize: "14px", fontWeight: "bold" }}>
+                      Live Demo
+                    </a>
+                  )}
+                </div>
               </div>
               <WorkImage image={project.image} alt={project.title} />
             </div>

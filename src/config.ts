@@ -1,171 +1,119 @@
 export const config = {
     developer: {
-        name: "Latish",
-        fullName: "Latish Kumeriya",
-        title: "Full Stack Developer",
-        description: "Results-driven Full Stack Developer with experience in Java (Spring Boot), React, Angular, REST APIs, MySQL and MongoDB. Proficient in OOP, MVC Architecture, and RESTful API design."
+        name: "Yash",
+        fullName: "Yash Gadhe",
+        title: "Front-End Developer",
+        description: "Aspiring Front-End Developer with hands-on experience in React JS, HTML5, CSS3, JavaScript (ES6+). Passionate about building responsive, high-performance web applications and optimizing user experiences with modern frontend tools."
     },
     social: {
-        github: "latishkumeriya",
-        email: "latish.kumeriya.tech@gmail.com",
-        location: "Pune, India"
+        github: "https://github.com/yashgadhe",
+        email: "yashgadhe348@gmail.com",
+        location: "India"
     },
     about: {
         title: "About Me",
-        description: "Results-driven Full Stack Developer with deep expertise in Java (Spring Boot), React, and Angular, specializing in designing and developing scalable, high-performance web applications."
+        description: "Aspiring Front-End Developer with hands-on experience in React JS, HTML5, CSS3, and JavaScript (ES6+). Quick learner with a strong interest in modern frontend technologies. Experienced in state management (Redux), REST API integration, performance optimization, and building responsive, component-based architectures."
     },
     experiences: [
         {
-            position: "IT Associate",
-            company: "Impulse Engineers",
-            period: "Dec 2024 - Apr 2025",
-            location: "Boisar",
-            description: "Managed real-time data transmission and automated data collection workflows, optimizing processes and reducing manual effort significantly.",
+            position: "Full-Stack Web Development Trainee",
+            company: "SEED Infotech",
+            period: "2025",
+            location: "Remote",
+            description: "Intensive training in Full-Stack Web Development with a focus on modern front-end engineering.",
             responsibilities: [
-                "Automated IoT data collection with Python scripts, reducing manual effort by 40%",
-                "Managed real-time data transmission via REST APIs ensuring 99% uptime",
-                "Built Python data pipelines for live client monitoring dashboards",
-                "Debugged hardware/software issues and maintained optimal system performance",
-                "Collaborated using Agile workflows to deploy company device solutions"
+                "Built interactive web applications using React JS and JavaScript (ES6+)",
+                "Integrated third-party REST APIs and managed application state efficiently",
+                "Focused on responsive design, performance optimization, and best practices"
             ],
-            technologies: ["Python", "REST APIs", "IoT"]
+            technologies: ["React JS", "JavaScript", "REST APIs", "Redux", "Tailwind CSS"]
         },
         {
-            position: "BCA Graduate",
-            company: "K. B. Sumeria College, Vapi",
-            period: "2021 - 2024",
-            location: "Vapi",
-            description: "Graduated with Distinction (CGPA: 7.53) from Veer Narmad South Gujarat University, building a strong foundation in computer applications.",
+            position: "B.Sc. Computer Science",
+            company: "Dr. BAM University, Paradh",
+            period: "2022 - 2025",
+            location: "Paradh",
+            description: "Graduated with a GPA of 7.6/10, gaining a strong foundation in computer science and software development.",
             responsibilities: [
-                "Studied core computer science concepts including OOP and MVC",
-                "Built multiple projects as part of the curriculum",
-                "Focused on software engineering principles and database management"
+                "Studied core computer science concepts",
+                "Developed academic projects focusing on software engineering principles"
             ],
-            technologies: ["Java", "Web Development", "Databases", "Software Engineering"]
+            technologies: ["Computer Science", "Web Development"]
         },
         {
-            position: "Class XII (CBSE)",
-            company: "Lions English School",
-            period: "2014 - 2015",
-            location: "Silvassa",
-            description: "Completed higher secondary education under the Central Board of Secondary Education.",
+            position: "HSC",
+            company: "Devraoji Nagre Junior College, Nandrakoli",
+            period: "2020 - 2021",
+            location: "Nandrakoli",
+            description: "Completed Higher Secondary Certificate with a GPA of 8.2/10.",
             responsibilities: [
-                "Studied academic fundamentals and foundational subjects",
-                "Participated in active school curricular activities"
+                "Focused on academic fundamentals and science subjects"
             ],
-            technologies: ["High School", "CBSE"]
-        },
-        {
-            position: "Class X (CBSE)",
-            company: "Lions English School",
-            period: "2012 - 2013",
-            location: "Silvassa",
-            description: "Completed secondary education under the Central Board of Secondary Education with a CGPA of 7.6.",
-            responsibilities: [
-                "Built a strong foundation in science, mathematics, and languages",
-                "Active participant in school academic programs"
-            ],
-            technologies: ["Secondary Education", "CBSE"]
+            technologies: ["High School", "Science"]
         }
     ],
     certifications: [
         {
-            title: "Introduction to Generative AI",
-            issuer: "Google Cloud Skills Boost",
+            title: "Full-Stack Web Development",
+            issuer: "SEED Infotech",
             date: "2025"
         },
         {
-            title: "AI Boost Bites: Prompting Like a Pro",
-            issuer: "Google Cloud Skills Boost",
-            date: "2025"
-        },
-        {
-            title: "AI Boost Bites: Your Personal AI Tutor",
-            issuer: "Google Cloud Skills Boost",
-            date: "2025"
-        },
-        {
-            title: "AI Boost Bites: Create Productivity Tools",
-            issuer: "Google Cloud Skills Boost",
+            title: "NSDC Certification",
+            issuer: "Skills India",
             date: "2025"
         }
     ],
     projects: [
         {
             id: 1,
-            title: "AI-Based Resume Analyzer",
-            category: "AI / Full Stack",
-            technologies: "Spring Boot, React, OpenAI API, MySQL",
-            image: "/images/drishti.png",
-            description: "An intelligent application that analyzes resumes to extract key skills and experience, leveraging OpenAI's API to intelligently match candidate profiles with job descriptions."
+            title: "Personal Expense Tracking Dashboard",
+            category: "Front-End App",
+            technologies: "React JS, JavaScript, Chart.js, HTML, CSS",
+            image: "/images/expense-tracker.png",
+            description: "An interactive dashboard for tracking and categorizing expenses with Chart.js visualization. Implemented with React Hooks (useState, useEffect) and Local Storage for data persistence.",
+            github: "https://github.com/yashgadhe/expense-tracker",
+            demo: "https://expense-tracker-yashgadhe.vercel.app"
         },
         {
             id: 2,
-            title: "Real-Time Chat Application",
-            category: "Full Stack",
-            technologies: "Spring Boot, WebSocket, React, MySQL",
-            image: "/images/votechain.png",
-            description: "A robust WebSocket-based chat application featuring real-time messaging latency, secure user authentication, and persistent chat history."
+            title: "Movie Discovery & Recommendation",
+            category: "Web Application",
+            technologies: "React JS, JavaScript, REST API",
+            image: "/images/movie-discovery.png",
+            description: "A dynamic movie discovery platform utilizing third-party REST API integration. Features include search and filtering functionality, reusable component-based architecture, and optimized state updates.",
+            github: "https://github.com/yashgadhe/movie-discovery",
+            demo: "https://movie-discovery-yashgadhe.vercel.app"
         },
         {
             id: 3,
-            title: "Online Code Compiler",
-            category: "Web Application",
-            technologies: "Spring Boot, React, REST APIs",
-            image: "/images/eie.png",
-            description: "A web-based IDE and secure code execution platform giving users the flexibility to write, compile, and execute code snippets efficiently."
-        },
-        {
-            id: 4,
-            title: "E-Commerce Web Application",
-            category: "Full Stack",
-            technologies: "Spring Boot, React/JSP, MySQL",
-            image: "/images/gamekroy.png",
-            description: "A comprehensive e-commerce platform incorporating product management, a dynamic shopping cart, secure checkout processes, and real-time order tracking."
-        },
-        {
-            id: 5,
-            title: "Smart Expense Tracker",
-            category: "Financial Tool",
-            technologies: "Spring Boot, Angular, MySQL",
-            image: "/images/redxchess.png",
-            description: "A financial management tool that allows users to seamlessly track daily expenses, categorize transactions, and view interactive spending reports for effective budgeting."
-        },
-        {
-            id: 6,
-            title: "Task Manager with AI Priority",
-            category: "AI / Web App",
-            technologies: "Spring Boot, Angular, MySQL",
-            image: "/images/floodhub.png",
-            description: "An advanced task management system that leverages AI algorithms to automatically prioritize to-dos, optimize workflows, and enhance daily productivity."
-        },
-        {
-            id: 7,
-            title: "Blog Management System",
-            category: "Web Application",
-            technologies: "Java Servlets/JSP, MySQL, Bootstrap",
-            image: "/images/phoenix.png",
-            description: "A content management platform enabling users to create, edit, and publish blog posts with comprehensive user role management and responsive design."
+            title: "Developer Portfolio",
+            category: "Front-End App",
+            technologies: "React JS, CSS3, GSAP, Tailwind CSS",
+            image: "/images/portfolio.png",
+            description: "A fully responsive, interactive developer portfolio highlighting my projects, skills, and experience. Built with advanced frontend tools and performance optimization techniques.",
+            github: "https://github.com/yashgadhe/portfolio",
+            demo: "https://yashgadhe-portfolio.vercel.app"
         }
     ],
     contact: {
-        email: "latish.kumeriya.tech@gmail.com",
-        github: "https://github.com/latishkumeriya",
-        linkedin: "https://linkedin.com/in/latish-kumeriya",
+        email: "yashgadhe348@gmail.com",
+        github: "https://github.com/yashgadhe",
+        linkedin: "https://www.linkedin.com/in/yash-gadhe",
         resume: "/resume.pdf"
     },
     skills: {
         develop: {
-            title: "BACKEND & DATABASES",
-            description: "Building scalable backend services",
-            details: "Specializing in developing robust RESTful APIs and microservices using Java (Spring Boot) and Python. Experienced in managing complex data with MySQL, MongoDB, and Oracle.",
-            tools: ["Java", "Spring Boot", "Spring Security", "Python", "Microservices", "REST APIs", "MySQL", "MongoDB", "Oracle"]
+            title: "FRONTEND FRAMEWORKS & LIBRARIES",
+            description: "Building responsive and fast UIs",
+            details: "Specializing in React JS (Hooks, Components), state management (Redux, Context API), and performance optimization. Proficient in integrating complex REST APIs.",
+            tools: ["React JS", "Redux", "JavaScript (ES6+)", "REST API Integration", "Component-Based Architecture", "Performance Optimization"]
         },
         design: {
-            title: "FRONTEND & TOOLS",
-            description: "Modern UI/UX & DevOps pipelines",
-            details: "Creating dynamic, responsive frontends using React and Angular. Managing complete software development lifecycles utilizing Git, GitHub Actions, Docker, and standard CI/CD practices.",
-            tools: ["React", "Angular", "JavaScript", "HTML", "CSS", "Bootstrap", "Docker", "GitHub Actions", "CI/CD", "Postman"]
+            title: "CORE WEB & DESIGN TOOLS",
+            description: "Crafting beautiful layouts",
+            details: "Creating highly responsive, user-friendly layouts using HTML5, CSS3, and modern CSS frameworks like Tailwind. Familiar with basic Figma designs and Git version control.",
+            tools: ["HTML5", "CSS3", "Tailwind CSS", "Responsive Design", "VS Code", "Git", "Figma", "Chart.js"]
         }
     }
 };
