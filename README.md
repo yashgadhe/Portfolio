@@ -6,7 +6,7 @@
 
 **Techstack** - React, TypeScript, GSAP, ThreeJS, WebGL, HTML, Css, JavaScript
 
-https://portfolio-seven-xi-61.vercel.app/
+https://portfolio-nine-snowy-76.vercel.app
 
 ## License
 
