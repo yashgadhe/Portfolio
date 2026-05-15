@@ -99,7 +99,7 @@ export const config = {
     contact: {
         email: "yashgadhe348@gmail.com",
         github: "https://github.com/yashgadhe",
-        linkedin: "https://www.linkedin.com/in/yash-gadhe",
+        linkedin: "https://www.linkedin.com/in/yash-gadhe-b2ab14379/",
         resume: "/resume.pdf"
     },
     skills: {
